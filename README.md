@@ -23,8 +23,8 @@
     In the folder unzip, we try to generate an executable file "unzip.exe" to extract file from "launcher.zip" with the password "123".
 * Type "python run.py" to generate the file "unzip.exe".
 * Requirements:
-  - python==3.8.8
-  - pyinstaller==4.3 
+  * python==3.8.8
+  * pyinstaller==4.3 
 
 ## Unzip.txt
     Because we cannot download the executable file directly, we change the file extension from .exe to .txt.
@@ -37,10 +37,10 @@
 ## project.xlsm
     It is a macro enabled excel document.
     The followings are what it will do:
-    - Download the file "launcher.zip" to %temp% folder
-    - Download the file "unzip.exe" to %temp% folder
-    - Execute the file "unzip.exe" to get the file "launcher.bat"
-    - Execute the file "launcher.bat" to connect to the empire server
+    * Download the file "launcher.zip" to %temp% folder
+    * Download the file "unzip.exe" to %temp% folder
+    * Execute the file "unzip.exe" to get the file "launcher.bat"
+    * Execute the file "launcher.bat" to connect to the empire server
 
 ## project.zip
     Contains project.xlsm with password '123'. 
