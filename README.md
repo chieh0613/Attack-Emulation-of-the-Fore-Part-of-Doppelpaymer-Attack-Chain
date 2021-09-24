@@ -37,10 +37,10 @@
 ## project.xlsm
     It is a macro enabled excel document.
     The followings are what it will do:
-    * Download the file "launcher.zip" to %temp% folder
-    * Download the file "unzip.exe" to %temp% folder
-    * Execute the file "unzip.exe" to get the file "launcher.bat"
-    * Execute the file "launcher.bat" to connect to the empire server
+   * Download the file "launcher.zip" to %temp% folder
+   * Download the file "unzip.exe" to %temp% folder
+   * Execute the file "unzip.exe" to get the file "launcher.bat"
+   * Execute the file "launcher.bat" to connect to the empire server
 
 ## project.zip
     Contains project.xlsm with password '123'. 
