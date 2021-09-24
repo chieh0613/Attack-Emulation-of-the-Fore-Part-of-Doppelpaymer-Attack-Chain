@@ -1,4 +1,7 @@
 # Attack Emulation of the Fore Part of Doppelpaymer Attack Chain
+## Second Part of this Project
+* https://github.com/chieh0613/Log-based-Anomaly-Detection-and-Tracing-back-to-Phishing-Emails
+
 ## Introduction
     An APT attack consists of various tactics, including initial access, credential access, and command and control.
     DoppelPaymer is a ransomware that have launched their attacks since 2019, threatening victims after stealing their files.
