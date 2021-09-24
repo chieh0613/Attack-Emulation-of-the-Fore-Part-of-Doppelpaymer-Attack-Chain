@@ -3,9 +3,9 @@
 * https://github.com/chieh0613/Log-based-Anomaly-Detection-and-Tracing-back-to-Phishing-Emails
 
 ## Introduction
-    An APT attack consists of various tactics, including initial access, credential access, and command and control.
-    DoppelPaymer is a ransomware that have launched their attacks since 2019, threatening victims after stealing their files.
-    We try to reproduce the attack scenario based on the fore part of Doppelpaymer attack chain.
+   An APT attack consists of various tactics, including initial access, credential access, and command and control.
+   DoppelPaymer is a ransomware that have launched their attacks since 2019, threatening victims after stealing their files.
+   We try to reproduce the attack scenario based on the fore part of Doppelpaymer attack chain.
 
 ## Victim's OS and requiremnts
 * Edition: Windows 10 Home
@@ -20,23 +20,23 @@
 
 
 ## Unzip
-    In the folder unzip, we try to generate an executable file "unzip.exe" to extract file from "launcher.zip" with the password "123".
+   In the folder unzip, we try to generate an executable file "unzip.exe" to extract file from "launcher.zip" with the password "123".
 * Type "python run.py" to generate the file "unzip.exe".
 * Requirements:
   * python==3.8.8
   * pyinstaller==4.3 
 
 ## Unzip.txt
-    Because we cannot download the executable file directly, we change the file extension from .exe to .txt.
-    After the modication, we can use macro to download the file directly by a given link.
+   Because we cannot download the executable file directly, we change the file extension from .exe to .txt.
+   After the modication, we can use macro to download the file directly by a given link.
 
 ## launcher.zip
-    Contains the file "launcher.bat" with the password "123". 
-    After executing the file "launcher.bat", the victim will connect to the empire server.
+   Contains the file "launcher.bat" with the password "123". 
+   After executing the file "launcher.bat", the victim will connect to the empire server.
 
 ## project.xlsm
-    It is a macro enabled excel document.
-    The followings are what it will do:
+   It is a macro enabled excel document.
+   The followings are what it will do:
    * Download the file "launcher.zip" to %temp% folder
    * Download the file "unzip.exe" to %temp% folder
    * Execute the file "unzip.exe" to get the file "launcher.bat"
