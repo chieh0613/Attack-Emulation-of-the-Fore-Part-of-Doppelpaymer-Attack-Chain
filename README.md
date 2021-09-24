@@ -43,7 +43,7 @@
    * Execute the file "launcher.bat" to connect to the empire server
 
 ## project.zip
-    Contains project.xlsm with password '123'. 
+   Contains project.xlsm with password '123'. 
 
 ## Empire Commands
 * Generate the file "launcher.bat" to let the victim connect to the empire server:
